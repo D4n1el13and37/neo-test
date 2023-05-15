@@ -1,0 +1,95 @@
+/* .img {
+  padding: 15px 65px 50px;
+} */
+.otec {
+  padding: 30px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* align-content: stretch;*/
+}
+
+.shop__section-item_image {
+  display: flex;
+  align-items: center;
+  /* padding: 30px 0; */
+  width: 220px;
+  height: 240px;
+}
+
+.shop__section-item_image img {
+  width: 100%;
+}
+
+.shop__section-item_info {
+  height: 74px;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* gap: 25px; */
+}
+
+.shop__section-item_info h4 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  /* margin-bottom: 25px; */
+}
+
+.shop__section-item_info div {
+  display: flex;
+  width: 50%;
+}
+
+.shop__section-item_info div:nth-child(2n) {
+  /* text-align: right; */
+  justify-content: flex-end;
+}
+
+.shop__section-item_info-price {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffa542;
+}
+
+.shop__section-item_info-price span::after {
+  content: " ₽";
+}
+
+.shop__section-item_info-rating {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #838383;
+}
+
+.shop__section-item_info-rating img {
+  margin-right: 10px;
+}
+.shop__section-item_info-buy button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
